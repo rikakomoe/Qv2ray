@@ -117,7 +117,7 @@ void MainWindow::on_action_StartThis_triggered()
 
 void MainWindow::VersionUpdate(QByteArray &data)
 {
-    auto conf = GetGlobalConfig();
+    /*auto conf = GetGlobalConfig();
     QString jsonString(data);
     QJsonObject root = JSONFromString(jsonString);
     //
@@ -147,7 +147,7 @@ void MainWindow::VersionUpdate(QByteArray &data)
             SetGlobalConfig(conf);
             save_reload_globalconfig(false);
         }
-    }
+    }*/
 }
 
 
